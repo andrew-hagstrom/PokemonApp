@@ -1,0 +1,18 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap into multiple rows */
+    gap: 10px; /* Adds space between cards */
+    justify-content: space-evenly; /* Aligns cards horizontally */
+  }
+  
+  .card {
+    flex: 1 1 300px; 
+    max-width: 300px;
+    border: black solid 2px;
+    background-color:lightgreen;
+  }
+
+  .box{
+    border: black solid 2px;
+  }
+
